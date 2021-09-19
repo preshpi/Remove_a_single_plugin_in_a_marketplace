@@ -75,22 +75,22 @@ check the [Standard Error Responses](#standard-error-responses) for more context
 
  ## Standard error responses
   **400** Plugin does not exist or plugin removal failed
-   RESPONSE SCHEMA:  |  application/json |
+| RESPONSE SCHEMA:  |  application/json |
 | ----------- | ----------- |
-| code required | interger <int32>|
+|  code required | interger |
 | message required | string |
 |||
 
 **404** Plugin not found
-   RESPONSE SCHEMA:  |  application/json |
+| RESPONSE SCHEMA:  |  application/json |
 | ----------- | ----------- |
-| code required | interger <int32>|
+|  code required | interger |
 | message required | string |
 |||
 
  **500** internal server error
-   RESPONSE SCHEMA:  |  application/json |
+| RESPONSE SCHEMA:  |  application/json |
 | ----------- | ----------- |
-| code required | interger <int32> |
+|  code required | interger |
 | message required | string |
 |||
